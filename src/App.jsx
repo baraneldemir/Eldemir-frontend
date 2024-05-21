@@ -1,18 +1,23 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { Container } from 'react-bootstrap'
+
 import MainMenu from './pages/MainMenu';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <BrowserRouter>
         <NavBar />
-    <Container>
+    
       <Routes>
         <Route path='/' element={ <MainMenu /> } /> 
       </Routes>
-    </Container>
+      
+
+      <footer id="footer">
+        <Footer />
+      </footer>
 
     </BrowserRouter>
   );

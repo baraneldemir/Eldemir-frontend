@@ -1,0 +1,9 @@
+.home {
+    color: white;
+    background-attachment: fixed;
+    background-color: gainsboro;
+    background-size: cover;
+    min-height: 100vh;
+    font-size: 3vmin;
+    min-width: 100vh;
+  }
